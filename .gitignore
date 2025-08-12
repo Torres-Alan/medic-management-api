@@ -1,0 +1,55 @@
+# Maven / Build
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.mvn/timing.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Maven Wrapper (mantener jar)
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+# IntelliJ
+.idea
+*.iws
+*.iml
+*.ipr
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# (Opcional) Config locales con secretos
+# application.properties
+# application.yml
+# application-*.properties
+# application-*.yml
